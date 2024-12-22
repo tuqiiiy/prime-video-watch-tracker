@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prime Video Watch Tracker</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #232f3e;
+      color: white;
+      padding: 20px;
+      margin: 0;
+      width: 400px; /* Genişliği artırdık */
+      height: auto;
+      box-sizing: border-box; /* Taşma problemlerini önler */
+    }
+    h2 {
+      font-size: 24px; /* Başlık boyutunu artırdık */
+      margin-bottom: 20px;
+      color: #f90; /* Başlığa vurgu rengi eklendi */
+    }
+    p {
+      font-size: 18px; /* Paragraf yazı boyutunu artırdık */
+    }
+    h3 {
+      font-size: 20px; /* Alt başlık boyutunu artırdık */
+      margin-top: 20px;
+      color: #a0d6b4; /* Alt başlığa renk eklendi */
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    li {
+      font-size: 16px; /* Liste yazı boyutunu artırdık */
+      margin-bottom: 10px;
+      background-color: #34495e; /* Liste öğelerine arka plan rengi eklendi */
+      padding: 10px;
+      border-radius: 5px; /* Köşeler yuvarlatıldı */
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #f90;
+      color: #232f3e;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #ffb84d; /* Hover efekti */
+    }
+  </style>
+</head>
+<body>
+  <h2>Prime Video Watch Tracker</h2>
+  <p id="watchTime">Toplam İzleme Süresi: Yükleniyor...</p>
+  <h3>Tekrar İzlenen Bölümler:</h3>
+  <ul id="episodesList">
+    <li>Yükleniyor...</li>
+  </ul>
+  <button id="refreshButton">Yenile</button>
+  <script src="popup.js"></script>
+</body>
+</html>
