@@ -70,3 +70,8 @@
 If you like this extension, please give it a star (`⭐`) on GitHub!
 
 ---
+## Tags
+- chrome-extension
+- amazon-prime
+- video-tracker
+- productivity
